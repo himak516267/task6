@@ -1,0 +1,104 @@
+header{
+  width: 100%;
+  background-color: #2FF408;
+  color: #fff;
+  text-align: center;
+  margin: 0%;
+  padding: 1%;
+}
+.button1{
+  font-weight: 550px;
+  display: block;
+  background: #4797CE;
+  color: #fff:
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: auto;
+  border: 1px solid #24EBC4;
+  border-radius: 5px;
+}
+.button{
+  font-weight: 550;
+  width: 100%;
+  display: block;
+  background: #6DF596;
+  color: #F5AF6D:
+  padding: 2%;
+  margin-top: 2px;
+  border: 1px solid #24EBC4;
+  border-radius: 5px;
+}
+ .parent{
+width: 800px;
+margin: 1% auto;
+background-color: #red;
+display:flex;
+flex-direction: row;
+justify-content: center;
+padding: 1px;
+}
+.hima{
+  margin:1% auto;
+  padding: 1px;
+  border: 2px solid red;
+}
+img{
+  width: 200px;
+  height: auto;
+}
+h4{
+
+  color:#F0E45E;
+
+ }
+@media only screen and (min-width:20px) and (max-width:320px) {
+  .parent{
+width: 100%;
+ background-color: #red;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 1px;
+ }
+ .hima{
+width: 100%;
+   margin:1% auto;
+   padding: 1px;
+   border: 2px solid red;
+ }
+
+}
+@media only screen and (min-width:321px) and (max-width:768px) {
+  .parent{
+width: 48%;
+ background-color: #red;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 1px;
+ }
+ .hima{
+width: 48%;
+   margin:1% auto;
+   padding: 1px;
+   border: 2px solid red;
+ }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1020px) {
+  .parent{
+ width: 800px;
+ margin: 1% auto;
+ background-color: #red;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ padding: 1px;
+ }
+ .hima{
+   margin:1% auto;
+   padding: 1px;
+   border: 2px solid red;
+ }
+}
